@@ -1,0 +1,24 @@
+.projects-container {
+  width: 100%;
+  font-family: inherit;
+}
+
+.project-view {
+  background-color: var(--main-color-black);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  height: 80%;
+}
+
+.project-view h2 {
+  top: 40%;
+  position: absolute;
+  font-size: 120px;
+}
+
+.project-view img {
+  height: 500px;
+  width: 350px;
+}

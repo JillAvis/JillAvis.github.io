@@ -1,0 +1,49 @@
+nav {
+  font-family:'SpaceGrotesklight', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 16vh;
+  background-color: var(--main-color-black);
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 70px;
+  color: transparent;
+}
+
+.nav-links li {
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 130%;
+}
+
+.logo {
+  margin-top: 5px;
+  margin-left: 70px;
+  border-radius: 50%;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.logo:hover {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}

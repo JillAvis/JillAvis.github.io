@@ -1,0 +1,40 @@
+.about-container {
+  width: 100%;
+  background-color: var(--main-color-black);
+  margin-bottom: 30px;
+}
+
+.about-view {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-view img {
+  height: 500px;
+  width: 350px;
+}
+
+.about-sentences {
+  color: white;
+  font-family: inherit;
+  max-width: 600px;
+  padding-left: 20px;
+}
+
+.about-sentences h2 {
+  font-size: 400%;
+  padding-bottom: 50px;
+
+}
+
+.about-sentences h3 {
+  font-size: 150%;
+  padding-bottom: 40px;
+}
+
+.about-sentences h4 {
+  font-size: 150%;
+  padding-bottom: 50px;
+}
