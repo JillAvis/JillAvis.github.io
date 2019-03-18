@@ -432,6 +432,7 @@ h1.practice-title {
   display: flex;
   flex-direction: row;
   margin-top: 100px;
+  min-height: 800px;
 }
 
 .target-title {
@@ -443,6 +444,10 @@ h1.practice-title {
   flex-direction: row;
 }
 
+.target-character-card {
+  padding: 20px;
+}
+
 .target-character-card h1 {
   margin-bottom: 50px;
 }
@@ -450,18 +455,55 @@ h1.practice-title {
 .target-character-info {
   display: flex;
   flex-direction: row;
+}
 
+.purple-title {
+  color: var(--color-purple);
+  padding-bottom: 10px;
+}
+
+.target-info-column {
+  margin: 32px;
+}
+
+.little-paragraphs {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  height: 96px;
 }
 
 
+/*VALUE*/
 
+.value {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+}
 
+.value-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
+.value-content-container {
+  flex-direction: row;
+  justify-content: space-around;
+}
 
+.value-content img {
+  margin-bottom: 0px;
+  margin-top: 20%;
+}
 
+/*USABILITY TESTING*/
 
-
-
+.usability-title {
+  height: 800px;
+}
 
 
 
