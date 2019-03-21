@@ -5,7 +5,9 @@ html {
 
 /*PROJECT TITLE SECTION*/
 .title-banner {
-  padding-top: 40px;
+  padding-top: 100px;
+  margin-bottom: 20%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -103,10 +105,14 @@ html {
 
 /*VOILA*/
 .voila-container {
-  margin: 50px;
+  width: 100%;
+  margin-bottom: 80px;
+  margin-top: 80px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-around;
+      background-image: linear-gradient(to right, #5C56EF , #837EFB);
 
 }
 
@@ -127,7 +133,7 @@ html {
   justify-content: center;
   margin-bottom: 80px;
   margin-top: 80px;
-    background-image: linear-gradient(to right, #5C56EF , #837EFB);
+
   width: 120%;
    padding: 20px;
 }
@@ -141,12 +147,18 @@ html {
 .viola-screen {
   display: flex;
   flex-direction: row;
+  margin-bottom: 80px;
 
 }
 
-.voila-container p {
-  font-size: 18px;
+
+
+.voila-screen p {
+  font-size: 12px;
   padding: 15px;
+}
+.title-paragraph {
+  font-size: 30px;
 }
 
 
@@ -174,6 +186,8 @@ html {
 .sideways-title {
   width: 20%;
   min-width: 140px;
+  display: flex;
+  align-items: center;
 }
 
 .sideways-title h1 {
@@ -187,6 +201,10 @@ html {
     -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: white;
    color: transparent;
+}
+
+.onboarding-title {
+
 }
 
 .onboarding-content {
@@ -465,7 +483,7 @@ h1.practice-title {
 }
 
 .purple-title {
-  color: var(--color-purple);
+  color: #837EFB;
   padding-bottom: 10px;
 }
 
