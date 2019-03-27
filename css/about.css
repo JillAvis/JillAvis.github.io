@@ -1,40 +1,107 @@
 .about-container {
-  width: 100%;
-  background-color: var(--main-color-black);
-  margin-bottom: 30px;
-}
-
-.about-view {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
-.about-view img {
-  height: 500px;
-  width: 350px;
+.about-image img {
+  height: 70vh;
+  margin-right: 12vw;
 }
 
-.about-sentences {
-  color: white;
-  font-family: inherit;
-  max-width: 600px;
-  padding-left: 20px;
+.about-content {
+  margin-left: 12vw;
+  margin-right: -10vw;
+  z-index: 1;
 }
 
-.about-sentences h2 {
-  font-size: 400%;
-  padding-bottom: 50px;
+.about-content h1 {
+  font-size: 12vh;
+}
+
+.about-content p {
+  padding: 2vh 0;
+}
+
+/*METHODOLOGY*/
+
+.methodology-container {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.methodology-title h1 {
+  font-size: 4vw;
+  margin-bottom: 2vh;
+}
+
+.methodology-tiles {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 60vw;
+}
+
+.methodology-tiles img {
+  padding-top: 4vh;
+  padding-right: 2vw;
+}
+
+/*ABOUT CONTACT*/
+
+.about-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 4vh;
+  width: 60vw;
+}
+
+.about-contact a {
+  text-decoration: none;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin-top: 0;
 
 }
 
-.about-sentences h3 {
-  font-size: 150%;
-  padding-bottom: 40px;
-}
 
-.about-sentences h4 {
-  font-size: 150%;
-  padding-bottom: 50px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

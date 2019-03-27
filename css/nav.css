@@ -1,36 +1,36 @@
 nav {
   position: sticky;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   min-height: 16vh;
   background-color: var(--main-color-black);
+  padding-bottom: 2vh;
 }
 
 .nav-links {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-right: 70px;
+  margin-right: 7vw;
   color: transparent;
 }
 
 .nav-links li {
   text-decoration: none;
-  padding: 10px;
-  padding-left: 20px;
+  padding-left: 8vw;
 }
 
 .nav-links a {
   color: white;
   text-decoration: none;
-  font-size: 130%;
+  font-size: 100%;
 }
 
 .logo {
-  padding-left: 4vw;
+  margin-left: 8vw;
   margin-top: 4vh;
 }
 
