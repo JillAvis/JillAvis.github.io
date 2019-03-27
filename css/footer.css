@@ -1,11 +1,37 @@
-footer {
+.social-media-icons {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 40px;
+  margin-bottom: 20px;
 }
 
-footer a {
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  height: 120px;
+}
+
+.social-media-icons a {
+  font-size: 18px;
   color: white;
   text-decoration: none;
-  font-size: 130%;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    position: sticky;
+    height: 10vh;
+    width: 100vw;
+  }
+  .social-media-icons {
+    flex-direction: row;
+  }
+  .social-media-icons a {
+    padding-left: 4vw;
+  }
 }
