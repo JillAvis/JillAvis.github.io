@@ -1,0 +1,30 @@
+.first-screen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5vw;
+}
+
+.first-screen-content {
+  width: 40vw;
+  margin-top: -10vh;
+  margin-right: 10vw;
+}
+
+.first-screen-content p {
+  margin: 2vh 0;
+}
+
+.first-screen-content h1 {
+  margin-top: 4vh;
+}
+
+.first-screen-image img {
+  height: 80vh;
+  margin-top: -5vh;
+}
+
+.first-screen-title {
+  margin-bottom: 4vh;
+}

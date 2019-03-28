@@ -25,9 +25,16 @@ footer {
     position: sticky;
     height: 10vh;
     width: 100vw;
+    bottom: 0;
+    z-index: 1;
+    background-color: black;
+    align-items: center;
+    justify-content: flex-end;
   }
   .social-media-icons {
     flex-direction: row;
+    margin-right: 8vw;
+    padding-bottom: 2vh;
   }
   .social-media-icons a {
     padding-left: 4vw;

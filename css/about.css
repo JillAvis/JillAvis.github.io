@@ -74,6 +74,36 @@
 
 
 
+@media screen and (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+  }
+  .about-content {
+    margin-right: 8vw;;
+  }
+  .about-content h1 {
+    font-size: 16vw;
+  }
+  .about-image img {
+    margin: 0;
+    width: 90vw;
+    height: 90vw;
+  }
+  .methodology-tiles img {
+    height: 30vw;
+    width: 20vw;
+  }
+  .methodology-title h1 {
+    font-size: 8vw;
+  }
+  .about-contact a {
+    height: 6vh;
+    width: 18vw;
+  }
+}
+
+
+
 
 
 
