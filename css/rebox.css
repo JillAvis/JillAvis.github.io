@@ -1,3 +1,7 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .first-screen {
   display: flex;
   flex-direction: row;
@@ -27,4 +31,8 @@
 
 .first-screen-title {
   margin-bottom: 4vh;
+}
+
+.second-screen-image img {
+  height: ;
 }
