@@ -1,0 +1,106 @@
+.interview-u-screen {
+  height: 50vh;
+  width: 50vh;
+  background-image: linear-gradient(to right, #5C56EF , #837EFB);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+.interview-u-screen img {
+  height: 60vh;
+}
+
+
+/*QUESTION SCREEN*/
+
+.title-screen {
+  margin: 10vh 10vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-screen img {
+  height: 80vh;
+}
+
+.title-column {
+  width: 60vw;
+  margin-right: 5vw;
+}
+
+.title-column h1 {
+  font-size: 10vh;
+}
+
+.title-column h3 {
+  font-size: 5vh;
+}
+
+.title-column h1, h3, p {
+  margin-bottom: 5vh;
+}
+
+/*BASIC OUTLINE FOR MOST SCREENS*/
+
+.img-content-screen {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-title h1 {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+
+  font-weight: normal;
+
+  font-size: 20vh;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+   color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
