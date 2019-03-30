@@ -274,6 +274,58 @@ html {
   margin: 0 2vw;
 }
 
+/**/
+/**/
+/**/
+/*CONTENT - GENERAL CSS*/
+/**/
+/**/
+/**/
+
+.content {
+  margin: 0 10vw;
+}
+
+.content h1, p, img {
+  margin-bottom: 2vh;
+}
+
+.content-break-text {
+  margin: 10vh 20vw;
+  text-align: center;
+}
+
+/**/
+/*KEY FINDINGS*/
+/**/
+
+.key-findings {
+  margin: 10vh 10vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.key-findings h2 {
+  margin-bottom: 5vh;
+}
+
+.purple-list {
+  background: #5C56EF;
+  border-radius: 30px;
+  padding: 5vh;
+  height: 60vh;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+
+
 
 
 
