@@ -3,27 +3,28 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 0 10vw;
 }
 
 .about-image img {
   height: 70vh;
-  margin-right: 12vw;
+  opacity: 0.8;
 }
 
 .about-content {
-  margin-left: 12vw;
   margin-right: -10vw;
   z-index: 1;
 }
 
 .about-content h1 {
-  font-size: 12vh;
+  font-size: 10vh;
 }
 
 .about-content p {
-  padding: 2vh 0;
+  padding: 1vh 0;
   font-weight: lighter;
-  line-height: 1.2;
+  line-height: 1.5;
+  font-size: 15px;
 }
 
 /*METHODOLOGY*/
