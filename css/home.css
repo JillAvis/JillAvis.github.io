@@ -19,6 +19,7 @@ html {
   flex-direction: column;
   justify-content: center;
   width: 25vw;
+  margin-top: -10vh;
 }
 
 .home-content h1 {
