@@ -7,8 +7,8 @@ html {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 10vh 15vw;
-  margin-bottom: 15vh;
+  margin: 0 15vw;
+  margin-bottom: 30vh;
 }
 
 .first-screen-content {
@@ -174,7 +174,7 @@ html {
 
 .profile-title {
   margin-bottom: 2vh;
-  color: #47d5db;
+  color: #665eff;
   font-size: 4vh;
   font-weight: bold;
 }
@@ -212,7 +212,7 @@ html {
 /*PROFILE CARD VARIANT - SOPHIE CARD*/
 
 .profile-image-2 {
-  background-color: #070EA9;
+  background-color: #665eff;
   height: 60vh;
   width: 60vh;
   border-radius: 50%;
@@ -227,7 +227,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10vh;
+  margin: 20vh 0;
 }
 
 .break-title-2 p {
@@ -235,6 +235,7 @@ html {
   width: 40vw;
   margin: 2vh 0;
 }
+
 
 /**/
 /**/
@@ -246,23 +247,41 @@ html {
   margin-left: 4vw;
 }
 
+.feature-screen-onboard {
+  display: flex;
+  flex-direction: column;
+  margin: 20vh 5vw;
+}
+
 .feature-screen {
   display: flex;
   flex-direction: column;
   margin: 20vh 10vw;
 }
 
-.feature-images img {
-  height: 50vh;
+.feature-images-onboard img{
+  width: 18vw;
+  height: 28vw;
 }
 
-.feature-images {
+.feature-images img {
+  width: 20vw;
+  height: 30vw;
+}
+
+.feature-images-onboard {
+  margin: 5vh 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-
+.feature-images {
+  margin: 5vh 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 .feature-paragraphs {
   display: flex;
@@ -286,7 +305,16 @@ html {
   margin: 0 10vw;
 }
 
-.content h1, p, img {
+.content img {
+  width: 80vw;
+  margin: 5vh 0;
+}
+
+.content h1 {
+  margin: 5vh 0;
+}
+
+.content p {
   margin-bottom: 2vh;
 }
 
@@ -322,21 +350,81 @@ html {
 }
 
 
+/**/
+/**/
+/**/
+/*SLIDESHOW*/
+/**/
+/**/
+/**/
 
+.slideshows {
+  margin: 10vh 10vw;
+}
 
+.slideshow-container {
+  margin-bottom: 30vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.slideshow-container img {
+  margin: auto;
+  width: 60vw;
+}
 
+.slideshow-writing {
+  height: 25vh;
+  width: 50vw;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
 
+.slideshow-title {
+  text-align: center;
+  margin-bottom: 5vh;
+}
 
+.slideshow-paragraphs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 12vw;
+  margin-top: -25vh;
+  margin-bottom: 20vh;
+}
 
+.slideshow-card {
+  width: 25vw;
+}
 
+.slideshow-card, .slideshow-writing p {
+  font-size: 12px;
+  margin-top: 10px;
+  line-height: 1.5;
+}
 
+.left-button, .right-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #D5D8DC  ;
+  border: none;
+  color: black;
+  margin-bottom: 20vh;
+}
 
+.left-button {
+  margin-right: 5vw;
+}
 
-
-
-
-
+.right-button {
+  margin-left: 5vw;
+  right: 0;
+}
 
 
 

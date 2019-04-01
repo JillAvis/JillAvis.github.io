@@ -6,26 +6,27 @@ html {
 .home-container {
   display: flex;
   flex-direction: row;
-
-}
-
-.home-image {
-  padding-right: 6vw;
-  padding-left: 8vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .home-image img {
-  height: 60vh;
+  width: 64vw;
 }
 
 .home-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 25vw;
 }
 
 .home-content h1 {
   margin-top: 3vh;
+}
+
+.home-content h3 {
+  line-height: 1.5;
 }
 
 .home-content h3, a {
@@ -42,14 +43,11 @@ html {
 }
 
 @media screen and (min-width: 993px) {
-  .home-content {
-    margin-top: -4vh;
-  }
   .home-content h1 {
     font-size: 4vw;
   }
   .home-content h3 {
-    font-size: 1.3vw;
+    font-size: 1vw;
   }
   .home-content a {
     font-size: 1.5vw;

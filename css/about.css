@@ -22,6 +22,8 @@
 
 .about-content p {
   padding: 2vh 0;
+  font-weight: lighter;
+  line-height: 1.2;
 }
 
 /*METHODOLOGY*/

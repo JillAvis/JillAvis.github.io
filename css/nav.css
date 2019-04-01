@@ -6,7 +6,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   min-height: 16vh;
-  background-color: var(--main-color-black);
+  background-color: transparent;
   padding-bottom: 2vh;
 }
 
@@ -20,13 +20,13 @@ nav {
 
 .nav-links li {
   text-decoration: none;
-  padding-left: 8vw;
+  padding-left: 5vw;
 }
 
 .nav-links a {
   color: white;
   text-decoration: none;
-  font-size: 100%;
+  font-size: 2vh;
 }
 
 .logo {
