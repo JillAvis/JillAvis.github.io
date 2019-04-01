@@ -81,7 +81,7 @@
 }
 
 .section-image-container {
-  margin: 0 5vw;
+  margin-left: 5vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -89,11 +89,13 @@
 
 .img-content-screen img {
   max-height: 70vh;
+  margin-right: 5vw;
 }
 
 .section-paragraphs {
-  width: 50vw;
+  max-width: 50vw;
   line-height: 1.5;
+  margin-right: 3vw;
 }
 
  /**/
@@ -135,22 +137,56 @@
 }
 
 
+/**/
+/**/
+/* overlapping */
+/**/
+/**/
 
+.img-content-screen-overlap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 10vh;
+  padding-bottom: 30vh;
+}
 
+.img-content-screen-overlap img {
+  max-height: 70vh;
+  margin-top: -20vh;
+  margin-right: 5vw;
+}
 
+/*#black {
+  margin-top: -10vh;
+}*/
 
+/*#black img {
+  margin-top: -30vh;
+}*/
 
+.fake-title {
+  color: transparent;
+  border: transparent;
+  -webkit-text-stroke-color: transparent;
+}
 
+.conclusion-image {
+  margin-left: auto;
+  margin-right: auto;
+  height: 50vh;
+  width: 50vh;
+  background-image: linear-gradient(to right, #5C56EF , #837EFB);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
 
-
-
-
-
-
-
-
-
-
+.conclusion-image img {
+  height: 60vh;
+}
 
 
 

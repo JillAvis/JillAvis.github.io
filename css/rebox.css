@@ -456,19 +456,38 @@ html {
 
 
 
+/**/
+/**/
+/**/
+/* conclusion */
+/**/
+/**/
+/**/
 
+/*.conslusion {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}*/
 
+.conclusion {
+  height: 100vh;
+  display: block;
+  margin-left: 25vw;
+  margin-right: auto;
+}
 
+.conclusion-words {
+  text-align: center;
+  margin-bottom: 30vh;
+  width: 40vw;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-
-
-
-
-
-
-
-
-
+.conclusion-words h2 {
+  margin-bottom: 3vh;
+}
 
 
 

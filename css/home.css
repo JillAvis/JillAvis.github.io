@@ -19,7 +19,9 @@ html {
   flex-direction: column;
   justify-content: center;
   width: 25vw;
-  margin-top: -10vh;
+  margin-top: -15vh;
+  margin-left: 8vw;
+
 }
 
 .home-content h1 {
@@ -28,6 +30,7 @@ html {
 
 .home-content h3 {
   line-height: 1.5;
+  margin-right: -5vw;
 }
 
 .home-content h3, a {
@@ -35,13 +38,14 @@ html {
 }
 
 .home-content a {
-  text-decoration: none;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
+  color: white;
+  font-size: 5vh;
 }
+
+.home-content a:hover {
+  opacity: 0.5;
+}
+
 
 @media screen and (min-width: 993px) {
   .home-content h1 {

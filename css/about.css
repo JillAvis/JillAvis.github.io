@@ -7,8 +7,9 @@
 }
 
 .about-image img {
-  height: 70vh;
+  height: 80vh;
   opacity: 0.8;
+  margin-top: -5vh;
 }
 
 .about-content {
@@ -24,7 +25,7 @@
   padding: 1vh 0;
   font-weight: lighter;
   line-height: 1.5;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 /*METHODOLOGY*/

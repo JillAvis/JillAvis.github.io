@@ -100,7 +100,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin: 10vh 10vw;
+  margin: 5vh 10vw;
 }
 
 .app-image img {
@@ -119,16 +119,40 @@ body {
 }
 
 #interview {
-  height: 50vh;
-  width: 50vh;
+  height: 60vh;
+  width: 60vh;
   background-image: linear-gradient(to right, #5C56EF , #837EFB);
 }
 
 #rebox {
-    height: 50vh;
-  width: 50vh;
+  height: 60vh;
+  width: 60vh;
   background-color: #47d5db;
 }
+
+.caption-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 10vw;
+  padding-top: 5vh;
+}
+
+.caption-container a {
+  font-size: 3vh;
+  width: 20vw;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+.caption-container a:hover {
+  opacity: 0.5;
+}
+
+
+
 
 
 
